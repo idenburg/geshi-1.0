@@ -54,7 +54,7 @@ $language_data = array (
             'interpret', 'iterate', 'leave', 'loop', 'nop', 'numeric',
             'parse', 'procedure', 'pull', 'push', 'queue',
             'raise', 'reply', 'return', 'say', 'select', 'signal',
-            'use'
+            'strict', 'use'
             ),
         2 => array(
             'abstract', 'any', 'arguments', 'array', 'by',
@@ -70,14 +70,14 @@ $language_data = array (
             'version', 'while', 'with'
             ),
         3 => array(
-            'else', 'end', 'otherwise', 'then', 'when'
+            'else', 'end', 'otherwise', 'select', 'then', 'when'
             ),
         4 => array(
             'rc', 'result', 'self', 'sigl', 'super'
             ),
         5 => array(
             '::attribute', '::class', '::constant', '::method',
-            '::optins', '::requires', '::routine'
+            '::options', '::requires', '::routine'
             ),
         6 => array(
             'abbrev', 'abs', 'beep', 'bitand', 'bitor',
